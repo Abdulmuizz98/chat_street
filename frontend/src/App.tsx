@@ -1,3 +1,10 @@
+import {Header} from "./components/header"
+  
 export default function App() {
-  return <h1 className="text-3xl font-bold underline">Chat street!</h1>;
+    return (
+        <Header />
+        // <ContactList />
+        // <ChatBox />
+    )
+    
 }
